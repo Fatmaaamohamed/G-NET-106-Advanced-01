@@ -15,5 +15,22 @@ namespace G_NET_106_Advanced_01
         }
 
         #endregion
+
+        #region Question05
+        public static T FinddMax<T>(T[] items) where T : IComparable
+        {
+            T max = items[0];
+            for (int i =1; i < items.Length; i++)
+            {
+                if (items[i].CompareTo(max)>0)
+                {
+                    max = items[i];
+                }
+            }
+
+            return max;
+        }
+
+        #endregion
     }
 }

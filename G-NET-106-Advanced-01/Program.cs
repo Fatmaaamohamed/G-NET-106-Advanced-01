@@ -52,9 +52,16 @@ namespace G_NET_106_Advanced_01
             Helper.Swap(ref a, ref b);
 
             Console.WriteLine($"{a} {b}");
-             #endregion
+            #endregion
 
 
-          }
+            #region Question05
+
+            int[] arr = { 1, 5, 9, 6, 7, 4 };
+            Console.WriteLine($"Max num is :  { Helper.FinddMax(arr)}");
+
+            #endregion
+
+        }
     }
 }
