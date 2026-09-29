@@ -16,6 +16,18 @@
 
             #endregion
 
+
+            #region Question02
+            Container<int> container01 = new Container<int>();
+
+            container01.Add(60);
+
+            container01.Add(70);
+
+            Console.WriteLine(container01.Get(1));
+         
+
+            #endregion
         }
     }
 }
