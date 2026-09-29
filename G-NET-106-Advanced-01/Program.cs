@@ -1,4 +1,6 @@
-﻿namespace G_NET_106_Advanced_01
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace G_NET_106_Advanced_01
 {
     internal class Program
     {
@@ -25,8 +27,17 @@
             container01.Add(70);
 
             Console.WriteLine(container01.Get(1));
-         
 
+
+            #endregion
+
+
+            #region Question03
+            /*Multiple type parameters allow a generic class, interface, or method to accept more than one placeholder type(e.g., Pair<TKey, TValue>),
+             enabling operations on relationships between different data types in a single structure.*/
+
+            Pair<string, int> pair = new Pair<string, int>("Fatma", 1);
+            Console.WriteLine($"ID: {pair.Key}, Name: {pair.Value}");
             #endregion
         }
     }
