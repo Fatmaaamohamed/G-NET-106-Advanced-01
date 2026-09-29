@@ -62,6 +62,14 @@ namespace G_NET_106_Advanced_01
 
             #endregion
 
+
+            #region Question09
+
+            Factory<Product> factory = new Factory<Product>();
+
+            Product item = factory.Create();
+
+            #endregion
         }
     }
 }
