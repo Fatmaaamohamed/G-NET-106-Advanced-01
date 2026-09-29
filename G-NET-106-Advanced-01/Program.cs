@@ -39,6 +39,22 @@ namespace G_NET_106_Advanced_01
             Pair<string, int> pair = new Pair<string, int>("Fatma", 1);
             Console.WriteLine($"ID: {pair.Key}, Name: {pair.Value}");
             #endregion
-        }
+
+
+            #region Question04
+            /* A generic method is a method declared with its own type parameters allowing it to operate on different data types without belonging to 
+             a generic class. The compiler can often infer the type parameter automatically based on the arguments passed to the method*/
+
+            string b = "Advanced";
+
+            string a = "C#";
+
+            Helper.Swap(ref a, ref b);
+
+            Console.WriteLine($"{a} {b}");
+             #endregion
+
+
+          }
     }
 }
