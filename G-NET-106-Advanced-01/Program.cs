@@ -86,6 +86,17 @@ namespace G_NET_106_Advanced_01
             #endregion
 
 
+            #region Question11
+            /*
+             The base class constraint (where T : BaseClass) specifies that the type argument T must be or derive from a specific base class.
+             This allows the generic code to access members inherited from that base class.*/
+
+
+            Shelter<Dog> shelter = new Shelter<Dog>();
+
+            shelter.DisplayName(new Dog() { Name ="LoLo"});
+
+            #endregion
         }
     }
 }
