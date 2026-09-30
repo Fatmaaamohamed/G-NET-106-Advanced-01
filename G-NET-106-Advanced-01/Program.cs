@@ -112,6 +112,17 @@ namespace G_NET_106_Advanced_01
 
 
             #endregion
+
+
+            #region Question13
+            /*
+             In generics, default provides the default initial value of a type parameter T when the exact type is unknown at compile-time.
+            Reference types(Null) , Numeric value types(0) , Boolean types(False), 
+             
+             */
+
+
+            #endregion
         }
     }
 }
