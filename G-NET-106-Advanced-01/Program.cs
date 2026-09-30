@@ -1,4 +1,7 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Reflection.Metadata;
+using System.Runtime.InteropServices.Marshalling;
+using System.Runtime.Intrinsics.X86;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_NET_106_Advanced_01
 {
@@ -140,6 +143,16 @@ namespace G_NET_106_Advanced_01
 
 
             #endregion
+
+
+            #region Question15
+          /*  Covariance allows you to use a more derived type(child class) than originally specified by the generic type parameter.
+              it applies only to interfaces.
+              The out keyword marks a type parameter as covariant.This restricts T so that it can only be used as a return type (output) of methods,
+              never as a method parameter input.*/
+
+             #endregion
+
         }
-    }
+}
 }
