@@ -97,6 +97,21 @@ namespace G_NET_106_Advanced_01
             shelter.DisplayName(new Dog() { Name ="LoLo"});
 
             #endregion
+
+
+            #region Question12
+
+            /*
+             To apply multiple constraints, list them after where T : separated by commas.
+             Order Rule: Reference/Value type constraint (class or struct) or Base Class goes first, 
+             interfaces in the middle, and new() must be last.             */
+
+
+            Datastore<User> datastore = new Datastore<User>();
+            User newUser = datastore.Create();
+
+
+            #endregion
         }
     }
 }
