@@ -123,6 +123,23 @@ namespace G_NET_106_Advanced_01
 
 
             #endregion
+
+
+            #region Question14
+
+            SafeList<int> safeList = new SafeList<int>();
+
+            safeList.Add(5);
+            safeList.Add(1);
+            safeList.Add(7);
+
+            Console.WriteLine(safeList.GetAt(2));
+
+            Console.WriteLine(safeList.GetAt(6));
+
+
+
+            #endregion
         }
     }
 }
