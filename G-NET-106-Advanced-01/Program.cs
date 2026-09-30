@@ -170,6 +170,16 @@ namespace G_NET_106_Advanced_01
 
                Contravariance(in): Moves from base to derived type(write - only / input).*/
             #endregion
+
+
+            #region Question18
+            /*
+             Static members are not shared across different closed generic types. Counter<int> and Counter<string> maintain 
+             completely separate static instances in memory.
+             
+             */
+
+            #endregion
         }
     }
 }
