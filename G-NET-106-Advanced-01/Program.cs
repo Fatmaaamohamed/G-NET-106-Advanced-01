@@ -163,6 +163,13 @@ namespace G_NET_106_Advanced_01
 
             #endregion
 
+
+
+            #region Question17
+            /* Covariance(out): Moves from derived to base type(read - only / output).
+
+               Contravariance(in): Moves from base to derived type(write - only / input).*/
+            #endregion
         }
     }
 }
