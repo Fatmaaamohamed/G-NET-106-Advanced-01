@@ -70,6 +70,22 @@ namespace G_NET_106_Advanced_01
             Product item = factory.Create();
 
             #endregion
+
+
+            #region Question10
+            /*
+             The interface constraint specifies that the type argument T must implement a specific interface.
+             This guarantees that elements of type T expose the methods and properties defined by that interface.
+             
+             */
+            Printer<Document> printer = new Printer<Document>();
+
+            printer.Display(new Document());
+
+
+            #endregion
+
+
         }
     }
 }
