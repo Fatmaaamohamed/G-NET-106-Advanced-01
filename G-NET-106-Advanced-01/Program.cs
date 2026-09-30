@@ -191,6 +191,17 @@ namespace G_NET_106_Advanced_01
              Pass through the generic parameter from the derived class to the base class (open generic inheritance).*/
 
             #endregion
+
+
+            Cache<string, int> cache = new Cache<string, int>();
+
+            cache.Add("score", 100, 5);
+
+            Console.WriteLine(cache.Contains("score"));
+            Console.WriteLine(cache.Get("score"));      
+
+            cache.Remove("score");
+            Console.WriteLine(cache.Contains("score")); 
         }
     }
 }
