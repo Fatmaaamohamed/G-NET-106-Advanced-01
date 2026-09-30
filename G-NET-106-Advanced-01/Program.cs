@@ -146,13 +146,23 @@ namespace G_NET_106_Advanced_01
 
 
             #region Question15
-          /*  Covariance allows you to use a more derived type(child class) than originally specified by the generic type parameter.
-              it applies only to interfaces.
-              The out keyword marks a type parameter as covariant.This restricts T so that it can only be used as a return type (output) of methods,
-              never as a method parameter input.*/
+            /*  Covariance allows you to use a more derived type(child class) than originally specified by the generic type parameter.
+                it applies only to interfaces.
+                The out keyword marks a type parameter as covariant.This restricts T so that it can only be used as a return type (output) of methods,
+                never as a method parameter input.*/
 
-             #endregion
+            #endregion
+
+
+
+            #region Question16
+            /*  Contravariance allows you to use a less derived type (parent/base class) than originally specified by the generic type parameter.
+                It also applies only to interfaces and delegates.
+                The in keyword marks a type parameter as contravariant. This restricts T so that it can only be used as a method parameter (input)
+                never as a return type output.*/
+
+            #endregion
 
         }
-}
+    }
 }
