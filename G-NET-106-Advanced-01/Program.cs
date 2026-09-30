@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata;
+﻿using System.Data.Common;
+using System.Reflection.Metadata;
 using System.Runtime.InteropServices.Marshalling;
 using System.Runtime.Intrinsics.X86;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -178,6 +179,16 @@ namespace G_NET_106_Advanced_01
              completely separate static instances in memory.
              
              */
+
+            #endregion
+
+
+
+            #region Question19
+
+            /*Provide a specific concrete type(closed generic inheritance).
+
+             Pass through the generic parameter from the derived class to the base class (open generic inheritance).*/
 
             #endregion
         }
